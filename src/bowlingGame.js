@@ -1,19 +1,14 @@
+'use strict';
 
-
-class Airport{
-
-  constructor(){
-    this._hangar = [];
-    // this. refers to this specific object called airport 
-    // the use of underscorce this is to indicate that this should be a private method.
+class Game {
+  roll() {
+  };
+  
+  get score() {
+    return 0
   };
 
-  planes(){
-    // return []; refactored to this._hanger
-    return [];
-  };
-
-  clearForLanding(plane){
-    this._hangar.push(plane);
-  };
 };
+
+
+

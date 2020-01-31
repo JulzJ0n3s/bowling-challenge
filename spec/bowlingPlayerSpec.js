@@ -14,17 +14,21 @@
 // fame2 = 3/5
 // Score 
 
-describe("Game", function () {
 
-  const game = new Game();
 
-  it("for gutter game", function() {
-    for (let i = 0; i < 20; i++)
-    game.roll(0)
+describe("Player", function() {
+  var player;
+  var score;
 
-  expect(game.score).toEqual(0);
+  beforeEach(function() {
+    player = new Player();
+    score = jasmine.createSpyObj('score', ['frame']);
   });
 
+  it("should be able to input 2 score ", function() {
+    player.scorecard(score);
+    expect(score.frame(score1, score2)).toEqual(score1, score2);
+  });
+
+  
 });
-
-

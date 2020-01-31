@@ -2,6 +2,17 @@
 Bowling Challenge
 =================
 
+## Julia's note
+
+I created user stories:
+
+My aim was to be able to complete one user story.
+
+```
+
+```
+
+
 
 * Challenge time: rest of the day and weekend.
 * Feel free to use google, your notes, books, etc. but work on your own
